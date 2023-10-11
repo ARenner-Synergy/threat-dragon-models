@@ -62,6 +62,7 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "process",
             "zIndex": 1,
             "id": "15bdaffe-8b4b-45b5-8eda-f00c5547726e",
@@ -200,6 +201,7 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "actor",
             "zIndex": 2,
             "id": "67e045fd-61d3-4e9a-951d-f5988aebee0d",
@@ -247,6 +249,7 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "process",
             "zIndex": 3,
             "id": "2e3459b9-6edf-498b-b8d4-e2b0c6485444",
@@ -282,6 +285,7 @@
               "name": "Authentication\nResponse",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "HTTPS",
               "isEncrypted": true,
@@ -328,6 +332,7 @@
               "name": "Authentication \nRequest",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": true,
@@ -378,6 +383,7 @@
               "name": "Authentication\nResponse",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": true,
@@ -423,6 +429,7 @@
               "name": "Authentication\nRequest",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": true,
@@ -468,6 +475,7 @@
               "name": "HTTPS \nRequest",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "HTTPS",
               "isEncrypted": true,
@@ -513,6 +521,7 @@
               "name": "HTTPS Response",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "HTTPS",
               "isEncrypted": true,
@@ -558,6 +567,7 @@
               "name": "HTTPS Request",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "HTTPS",
               "isEncrypted": true,
@@ -603,6 +613,7 @@
               "name": "Request",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -648,6 +659,7 @@
               "name": "Response",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -693,6 +705,7 @@
               "name": "Request",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -738,6 +751,7 @@
               "name": "Response",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "",
               "isEncrypted": false,
@@ -783,6 +797,7 @@
               "name": "HTTPS\nResponse",
               "description": "",
               "outOfScope": false,
+              "isBidirectional": false,
               "reasonOutOfScope": "",
               "protocol": "HTTPS",
               "isEncrypted": true,
@@ -826,6 +841,7 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "actor",
             "zIndex": 11,
             "id": "c2b16b27-38c1-4f9d-99ba-bde4115df2e7",
@@ -859,6 +875,7 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "process",
             "zIndex": 12,
             "id": "adb668bd-aebc-4550-ac99-4c88d8f6a011",
@@ -895,9 +912,10 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "store",
-            "id": "e26cac15-5d4b-4c54-a484-4cda2860e701",
             "zIndex": 13,
+            "id": "e26cac15-5d4b-4c54-a484-4cda2860e701",
             "data": {
               "type": "tm.Store",
               "name": "TMT Database",
@@ -974,9 +992,10 @@
                 "strokeDasharray": null
               }
             },
+            "visible": true,
             "shape": "store",
-            "id": "8cc69027-2873-4638-8d9d-12bf325405ca",
             "zIndex": 14,
+            "id": "8cc69027-2873-4638-8d9d-12bf325405ca",
             "data": {
               "type": "tm.Store",
               "name": "MIPSA NoSQL \nDatabase",
